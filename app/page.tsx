@@ -5,7 +5,7 @@ export default function LandingPage() {
   return <div className="bg-white dark:w-full dark:bg-black relative inset-0 ">
   <div className="fixed w-full bg-white dark:bg-black z-50"><Navbar></Navbar></div>
 
-<div className="text-xl  pt-2 sm:pt-20 md:pt-14 lg:pt-10 w-full   xl:pt-16 flex justify-center items-start ">
+<div className=" text-xl  pt-2 sm:pt-20 md:pt-14 lg:pt-10 w-full   xl:pt-16 flex justify-center items-start ">
 <div className="overflow-hidden w-full p-8 flex flex-col justify-center items-center  lg:h-screen lg:justify-end  ">
 <div className=' text-5xl sm:text-7xl lg:text-9xl  font-sans font-bold tracking-wide my-6 xl:my-2 h-full lg:pt-20  leading-snug '>
 <span className='text-fuchsia-400 '>Tech Used  </span>
