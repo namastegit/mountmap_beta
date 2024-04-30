@@ -1,5 +1,5 @@
 import CredentialsProvider from 'next-auth/providers/credentials';
-import GoogleProvider from "next-auth/providers/google";
+import GoogleProvider from "next-auth/providers/google";  
 import GitHubProvider from "next-auth/providers/github";
 
 import { PrismaClient } from '@prisma/client'
