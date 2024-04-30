@@ -47,14 +47,14 @@ export default function SigningIn() {
                         
                     }}>Sign In</button>
                 </div>
-                {/* <div className='w-full'>
+                <div className='w-full'>
                     <button className='bg-zinc-800 w-full text-white p-2 rounded-xl' onClick={async () => {
                         const res = await signIn("google", { callbackUrl: "/mountmap" });
                         if (res) {
                             router.push("/mountmap");
                         }
                     }}>Google</button>
-                </div> */}
+                </div>
             </div>
         </div>
     );
